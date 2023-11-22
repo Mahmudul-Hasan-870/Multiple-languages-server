@@ -1,6 +1,6 @@
 # Multiple-languages-server
 
-## MainActivity
+### MainActivity.java
 
 ```sh
 public class MainActivity extends AppCompatActivity {
@@ -98,7 +98,7 @@ public class MainActivity extends AppCompatActivity {
 
         @Override
         public SentenceViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-            View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_sentence, parent, false);
+            View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.items, parent, false);
             return new SentenceViewHolder(view);
         }
 
@@ -127,7 +127,7 @@ public class MainActivity extends AppCompatActivity {
     }
 }
 ```
-## SettingsActivity
+### SettingsActivity.java
 
 ```sh
 public class SettingsActivity extends AppCompatActivity {
@@ -209,7 +209,7 @@ public class SettingsActivity extends AppCompatActivity {
 
 </RelativeLayout>
 ```
-## activity_settings
+### activity_settings.xml
 
 ```sh
 <?xml version="1.0" encoding="utf-8"?>
@@ -249,7 +249,7 @@ public class SettingsActivity extends AppCompatActivity {
 
 </LinearLayout>
 ```
-## items.xml
+### items.xml
 ```sh
 <!-- item_sentence.xml -->
 <LinearLayout
